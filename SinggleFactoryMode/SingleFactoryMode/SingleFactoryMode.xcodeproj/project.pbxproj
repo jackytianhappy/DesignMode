@@ -24,6 +24,8 @@
 		85286A041DBDFD2000D98029 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 85286A031DBDFD2000D98029 /* Dog.m */; };
 		85286A071DBDFD5A00D98029 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 85286A061DBDFD5A00D98029 /* Cat.m */; };
 		85286A0A1DBDFD6E00D98029 /* AnimalFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 85286A091DBDFD6E00D98029 /* AnimalFactory.m */; };
+		85286A0F1DBE047B00D98029 /* AnimalCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 85286A0E1DBE047B00D98029 /* AnimalCat.m */; };
+		85286A121DBE050000D98029 /* FactoryMake.m in Sources */ = {isa = PBXBuildFile; fileRef = 85286A111DBE050000D98029 /* FactoryMake.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,11 @@
 		85286A061DBDFD5A00D98029 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		85286A081DBDFD6E00D98029 /* AnimalFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalFactory.h; sourceTree = "<group>"; };
 		85286A091DBDFD6E00D98029 /* AnimalFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalFactory.m; sourceTree = "<group>"; };
+		85286A0C1DBE045C00D98029 /* IAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAnimal.h; sourceTree = "<group>"; };
+		85286A0D1DBE047B00D98029 /* AnimalCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalCat.h; sourceTree = "<group>"; };
+		85286A0E1DBE047B00D98029 /* AnimalCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalCat.m; sourceTree = "<group>"; };
+		85286A101DBE050000D98029 /* FactoryMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMake.h; sourceTree = "<group>"; };
+		85286A111DBE050000D98029 /* FactoryMake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMake.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +222,11 @@
 		85286A0B1DBDFF9100D98029 /* FactoryDemoFour */ = {
 			isa = PBXGroup;
 			children = (
+				85286A0C1DBE045C00D98029 /* IAnimal.h */,
+				85286A0D1DBE047B00D98029 /* AnimalCat.h */,
+				85286A0E1DBE047B00D98029 /* AnimalCat.m */,
+				85286A101DBE050000D98029 /* FactoryMake.h */,
+				85286A111DBE050000D98029 /* FactoryMake.m */,
 			);
 			name = FactoryDemoFour;
 			sourceTree = "<group>";
@@ -358,8 +370,10 @@
 				85286A071DBDFD5A00D98029 /* Cat.m in Sources */,
 				852869A41DBDBA0100D98029 /* ViewController.m in Sources */,
 				852869EF1DBDF4F200D98029 /* BaseCar.m in Sources */,
+				85286A0F1DBE047B00D98029 /* AnimalCat.m in Sources */,
 				85286A041DBDFD2000D98029 /* Dog.m in Sources */,
 				852869F21DBDF53300D98029 /* BaomaCar.m in Sources */,
+				85286A121DBE050000D98029 /* FactoryMake.m in Sources */,
 				852869F51DBDF64400D98029 /* CarFactory.m in Sources */,
 				852869A11DBDBA0100D98029 /* AppDelegate.m in Sources */,
 				852869FD1DBDF7EC00D98029 /* FactoryCar.m in Sources */,

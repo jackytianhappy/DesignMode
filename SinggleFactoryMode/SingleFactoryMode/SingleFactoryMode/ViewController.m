@@ -16,6 +16,9 @@
 #import "AnimalFactory.h"
 #import "Dog.h"
 
+#import "IAnimal.h"
+#import "FactoryMake.h"
+
 
 @interface ViewController ()
 
@@ -39,13 +42,18 @@
 //    FactoryCar *ca = [[FactoryCar alloc]init];
 //    
 //    
-    id<IBaseCar> benchi = [FactoryCar buildInitWithType:@"benchi"];
-    [benchi consolName];
-    NSLog(@"!!!!!!:%@",benchi.name);
-    
+//    id<IBaseCar> benchi = [FactoryCar buildInitWithType:@"benchi"];
+//    [benchi consolName];
+//    NSLog(@"!!!!!!:%@",benchi.name);
+//    
 //    Dog *dong=  [AnimalFactory createDog];
 //    [dong say];
 //    NSLog(@"%@",dong.name);
+    
+    id<IAnimal> cat = [FactoryMake makeAnimalWithType:@"cat"];
+    NSLog(@"%@",cat.name);
+    [cat talk];
+    
     
 }
 
