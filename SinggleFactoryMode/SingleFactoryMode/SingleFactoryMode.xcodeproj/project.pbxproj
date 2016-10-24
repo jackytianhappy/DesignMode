@@ -129,6 +129,7 @@
 		8528699B1DBDBA0100D98029 /* SingleFactoryMode */ = {
 			isa = PBXGroup;
 			children = (
+				85286A0B1DBDFF9100D98029 /* FactoryDemoFour */,
 				852869FE1DBDFC8B00D98029 /* FactoyDemoThree */,
 				852869F61DBDF70500D98029 /* FactoruDemoTwo */,
 				852869CF1DBDBA1000D98029 /* FactoryDemoOne */,
@@ -209,6 +210,13 @@
 				85286A091DBDFD6E00D98029 /* AnimalFactory.m */,
 			);
 			name = FactoyDemoThree;
+			sourceTree = "<group>";
+		};
+		85286A0B1DBDFF9100D98029 /* FactoryDemoFour */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FactoryDemoFour;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

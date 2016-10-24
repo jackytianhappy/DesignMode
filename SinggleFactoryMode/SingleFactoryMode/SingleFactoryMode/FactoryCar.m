@@ -11,7 +11,7 @@
 
 @implementation FactoryCar
 
--(id<IBaseCar>)buildInitWithType:(NSString *)type{
++(id<IBaseCar>)buildInitWithType:(NSString *)type{
     if ([type isEqualToString:@"benchi"]) {
         BenChiCar *benchi = [[BenChiCar alloc]init];
         return benchi;

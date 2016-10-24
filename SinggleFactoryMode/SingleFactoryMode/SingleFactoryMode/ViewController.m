@@ -39,13 +39,13 @@
 //    FactoryCar *ca = [[FactoryCar alloc]init];
 //    
 //    
-//    id<IBaseCar> benchi = [ca buildInitWithType:@"benchi"];
-//    [benchi consolName];
-//    NSLog(@"!!!!!!:%@",benchi.name);
+    id<IBaseCar> benchi = [FactoryCar buildInitWithType:@"benchi"];
+    [benchi consolName];
+    NSLog(@"!!!!!!:%@",benchi.name);
     
-    Dog *dong=  [AnimalFactory createDog];
-    [dong say];
-    NSLog(@"%@",dong.name);
+//    Dog *dong=  [AnimalFactory createDog];
+//    [dong say];
+//    NSLog(@"%@",dong.name);
     
 }
 

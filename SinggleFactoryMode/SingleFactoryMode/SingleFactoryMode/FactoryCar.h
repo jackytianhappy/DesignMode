@@ -11,6 +11,6 @@
 
 @interface FactoryCar : NSObject
 
--(id<IBaseCar>)buildInitWithType:(NSString *)type;
++(id<IBaseCar>)buildInitWithType:(NSString *)type;
 
 @end
