@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8525DC3F1DC0EE320037BC0B /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8525DC3E1DC0EE320037BC0B /* DemoView.m */; };
+		8526F3D61DC059F2009A1EFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8526F3D51DC059F2009A1EFD /* main.m */; };
+		8526F3D91DC059F2009A1EFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8526F3D81DC059F2009A1EFD /* AppDelegate.m */; };
+		8526F3DC1DC059F2009A1EFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8526F3DB1DC059F2009A1EFD /* ViewController.m */; };
+		8526F3DF1DC059F2009A1EFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8526F3DD1DC059F2009A1EFD /* Main.storyboard */; };
+		8526F3E11DC059F2009A1EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8526F3E01DC059F2009A1EFD /* Assets.xcassets */; };
+		8526F3E41DC059F2009A1EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8526F3E21DC059F2009A1EFD /* LaunchScreen.storyboard */; };
+		8526F3EF1DC059F2009A1EFD /* ProtocalModeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8526F3EE1DC059F2009A1EFD /* ProtocalModeTests.m */; };
+		8526F3FA1DC059F2009A1EFD /* ProtocalModeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8526F3F91DC059F2009A1EFD /* ProtocalModeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8526F3EB1DC059F2009A1EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8526F3C91DC059F2009A1EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8526F3D01DC059F2009A1EFD;
+			remoteInfo = ProtocalMode;
+		};
+		8526F3F61DC059F2009A1EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8526F3C91DC059F2009A1EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8526F3D01DC059F2009A1EFD;
+			remoteInfo = ProtocalMode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8525DC3D1DC0EE320037BC0B /* DemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoView.h; sourceTree = "<group>"; };
+		8525DC3E1DC0EE320037BC0B /* DemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
+		8526F3D11DC059F2009A1EFD /* ProtocalMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocalMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8526F3D51DC059F2009A1EFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8526F3D71DC059F2009A1EFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8526F3D81DC059F2009A1EFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8526F3DA1DC059F2009A1EFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8526F3DB1DC059F2009A1EFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8526F3DE1DC059F2009A1EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8526F3E01DC059F2009A1EFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8526F3E31DC059F2009A1EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8526F3E51DC059F2009A1EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8526F3EA1DC059F2009A1EFD /* ProtocalModeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocalModeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8526F3EE1DC059F2009A1EFD /* ProtocalModeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocalModeTests.m; sourceTree = "<group>"; };
+		8526F3F01DC059F2009A1EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8526F3F51DC059F2009A1EFD /* ProtocalModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocalModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8526F3F91DC059F2009A1EFD /* ProtocalModeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocalModeUITests.m; sourceTree = "<group>"; };
+		8526F3FB1DC059F2009A1EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8526F3CE1DC059F2009A1EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8526F3E71DC059F2009A1EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8526F3F21DC059F2009A1EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8525DC3C1DC0EE0A0037BC0B /* ProtocalModeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8525DC3D1DC0EE320037BC0B /* DemoView.h */,
+				8525DC3E1DC0EE320037BC0B /* DemoView.m */,
+			);
+			name = ProtocalModeDemo;
+			sourceTree = "<group>";
+		};
+		8526F3C81DC059F2009A1EFD = {
+			isa = PBXGroup;
+			children = (
+				8526F3D31DC059F2009A1EFD /* ProtocalMode */,
+				8526F3ED1DC059F2009A1EFD /* ProtocalModeTests */,
+				8526F3F81DC059F2009A1EFD /* ProtocalModeUITests */,
+				8526F3D21DC059F2009A1EFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8526F3D21DC059F2009A1EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8526F3D11DC059F2009A1EFD /* ProtocalMode.app */,
+				8526F3EA1DC059F2009A1EFD /* ProtocalModeTests.xctest */,
+				8526F3F51DC059F2009A1EFD /* ProtocalModeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8526F3D31DC059F2009A1EFD /* ProtocalMode */ = {
+			isa = PBXGroup;
+			children = (
+				8526F4071DC059FC009A1EFD /* ProtocalMode */,
+				8526F3D71DC059F2009A1EFD /* AppDelegate.h */,
+				8526F3D81DC059F2009A1EFD /* AppDelegate.m */,
+				8526F3DA1DC059F2009A1EFD /* ViewController.h */,
+				8526F3DB1DC059F2009A1EFD /* ViewController.m */,
+				8526F3DD1DC059F2009A1EFD /* Main.storyboard */,
+				8526F3E01DC059F2009A1EFD /* Assets.xcassets */,
+				8526F3E21DC059F2009A1EFD /* LaunchScreen.storyboard */,
+				8526F3E51DC059F2009A1EFD /* Info.plist */,
+				8526F3D41DC059F2009A1EFD /* Supporting Files */,
+			);
+			path = ProtocalMode;
+			sourceTree = "<group>";
+		};
+		8526F3D41DC059F2009A1EFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8526F3D51DC059F2009A1EFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8526F3ED1DC059F2009A1EFD /* ProtocalModeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8526F3EE1DC059F2009A1EFD /* ProtocalModeTests.m */,
+				8526F3F01DC059F2009A1EFD /* Info.plist */,
+			);
+			path = ProtocalModeTests;
+			sourceTree = "<group>";
+		};
+		8526F3F81DC059F2009A1EFD /* ProtocalModeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8526F3F91DC059F2009A1EFD /* ProtocalModeUITests.m */,
+				8526F3FB1DC059F2009A1EFD /* Info.plist */,
+			);
+			path = ProtocalModeUITests;
+			sourceTree = "<group>";
+		};
+		8526F4071DC059FC009A1EFD /* ProtocalMode */ = {
+			isa = PBXGroup;
+			children = (
+				8525DC3C1DC0EE0A0037BC0B /* ProtocalModeDemo */,
+			);
+			name = ProtocalMode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8526F3D01DC059F2009A1EFD /* ProtocalMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8526F3FE1DC059F2009A1EFD /* Build configuration list for PBXNativeTarget "ProtocalMode" */;
+			buildPhases = (
+				8526F3CD1DC059F2009A1EFD /* Sources */,
+				8526F3CE1DC059F2009A1EFD /* Frameworks */,
+				8526F3CF1DC059F2009A1EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProtocalMode;
+			productName = ProtocalMode;
+			productReference = 8526F3D11DC059F2009A1EFD /* ProtocalMode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8526F3E91DC059F2009A1EFD /* ProtocalModeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8526F4011DC059F2009A1EFD /* Build configuration list for PBXNativeTarget "ProtocalModeTests" */;
+			buildPhases = (
+				8526F3E61DC059F2009A1EFD /* Sources */,
+				8526F3E71DC059F2009A1EFD /* Frameworks */,
+				8526F3E81DC059F2009A1EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8526F3EC1DC059F2009A1EFD /* PBXTargetDependency */,
+			);
+			name = ProtocalModeTests;
+			productName = ProtocalModeTests;
+			productReference = 8526F3EA1DC059F2009A1EFD /* ProtocalModeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8526F3F41DC059F2009A1EFD /* ProtocalModeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8526F4041DC059F2009A1EFD /* Build configuration list for PBXNativeTarget "ProtocalModeUITests" */;
+			buildPhases = (
+				8526F3F11DC059F2009A1EFD /* Sources */,
+				8526F3F21DC059F2009A1EFD /* Frameworks */,
+				8526F3F31DC059F2009A1EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8526F3F71DC059F2009A1EFD /* PBXTargetDependency */,
+			);
+			name = ProtocalModeUITests;
+			productName = ProtocalModeUITests;
+			productReference = 8526F3F51DC059F2009A1EFD /* ProtocalModeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8526F3C91DC059F2009A1EFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = jacky;
+				TargetAttributes = {
+					8526F3D01DC059F2009A1EFD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = L9ALLF39KA;
+						ProvisioningStyle = Automatic;
+					};
+					8526F3E91DC059F2009A1EFD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = L9ALLF39KA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8526F3D01DC059F2009A1EFD;
+					};
+					8526F3F41DC059F2009A1EFD = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = L9ALLF39KA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8526F3D01DC059F2009A1EFD;
+					};
+				};
+			};
+			buildConfigurationList = 8526F3CC1DC059F2009A1EFD /* Build configuration list for PBXProject "ProtocalMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8526F3C81DC059F2009A1EFD;
+			productRefGroup = 8526F3D21DC059F2009A1EFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8526F3D01DC059F2009A1EFD /* ProtocalMode */,
+				8526F3E91DC059F2009A1EFD /* ProtocalModeTests */,
+				8526F3F41DC059F2009A1EFD /* ProtocalModeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8526F3CF1DC059F2009A1EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8526F3E41DC059F2009A1EFD /* LaunchScreen.storyboard in Resources */,
+				8526F3E11DC059F2009A1EFD /* Assets.xcassets in Resources */,
+				8526F3DF1DC059F2009A1EFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8526F3E81DC059F2009A1EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8526F3F31DC059F2009A1EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8526F3CD1DC059F2009A1EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8526F3DC1DC059F2009A1EFD /* ViewController.m in Sources */,
+				8525DC3F1DC0EE320037BC0B /* DemoView.m in Sources */,
+				8526F3D91DC059F2009A1EFD /* AppDelegate.m in Sources */,
+				8526F3D61DC059F2009A1EFD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8526F3E61DC059F2009A1EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8526F3EF1DC059F2009A1EFD /* ProtocalModeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8526F3F11DC059F2009A1EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8526F3FA1DC059F2009A1EFD /* ProtocalModeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8526F3EC1DC059F2009A1EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8526F3D01DC059F2009A1EFD /* ProtocalMode */;
+			targetProxy = 8526F3EB1DC059F2009A1EFD /* PBXContainerItemProxy */;
+		};
+		8526F3F71DC059F2009A1EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8526F3D01DC059F2009A1EFD /* ProtocalMode */;
+			targetProxy = 8526F3F61DC059F2009A1EFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8526F3DD1DC059F2009A1EFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8526F3DE1DC059F2009A1EFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8526F3E21DC059F2009A1EFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8526F3E31DC059F2009A1EFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8526F3FC1DC059F2009A1EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8526F3FD1DC059F2009A1EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8526F3FF1DC059F2009A1EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L9ALLF39KA;
+				INFOPLIST_FILE = ProtocalMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jacky.ProtocalMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8526F4001DC059F2009A1EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L9ALLF39KA;
+				INFOPLIST_FILE = ProtocalMode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jacky.ProtocalMode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8526F4021DC059F2009A1EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L9ALLF39KA;
+				INFOPLIST_FILE = ProtocalModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jacky.ProtocalModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtocalMode.app/ProtocalMode";
+			};
+			name = Debug;
+		};
+		8526F4031DC059F2009A1EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L9ALLF39KA;
+				INFOPLIST_FILE = ProtocalModeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jacky.ProtocalModeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtocalMode.app/ProtocalMode";
+			};
+			name = Release;
+		};
+		8526F4051DC059F2009A1EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L9ALLF39KA;
+				INFOPLIST_FILE = ProtocalModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jacky.ProtocalModeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProtocalMode;
+			};
+			name = Debug;
+		};
+		8526F4061DC059F2009A1EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L9ALLF39KA;
+				INFOPLIST_FILE = ProtocalModeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jacky.ProtocalModeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProtocalMode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8526F3CC1DC059F2009A1EFD /* Build configuration list for PBXProject "ProtocalMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8526F3FC1DC059F2009A1EFD /* Debug */,
+				8526F3FD1DC059F2009A1EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8526F3FE1DC059F2009A1EFD /* Build configuration list for PBXNativeTarget "ProtocalMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8526F3FF1DC059F2009A1EFD /* Debug */,
+				8526F4001DC059F2009A1EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8526F4011DC059F2009A1EFD /* Build configuration list for PBXNativeTarget "ProtocalModeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8526F4021DC059F2009A1EFD /* Debug */,
+				8526F4031DC059F2009A1EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8526F4041DC059F2009A1EFD /* Build configuration list for PBXNativeTarget "ProtocalModeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8526F4051DC059F2009A1EFD /* Debug */,
+				8526F4061DC059F2009A1EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8526F3C91DC059F2009A1EFD /* Project object */;
+}
