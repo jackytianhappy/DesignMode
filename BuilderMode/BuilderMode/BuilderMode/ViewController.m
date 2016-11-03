@@ -26,8 +26,10 @@
     
     
 //    Builder *tigerBuilder = [[TigerBuilder alloc]init];
-//    Animal *tiger = [Directior createAnimalWith:tigerBuilder];
+//    Animal *tiger = [DirectiorcreateAnimalWith:tigerBuilder];
 //    [tiger makeAnimalName];
+    
+    
     
     Builder *catBuilder = [[CatBuilder alloc]init];
     Animal *cat = [Directior createAnimalWith:catBuilder];
